@@ -1,0 +1,468 @@
+html,body{
+	height:100%;
+	margin:0;
+}
+
+#main{
+	background-image:url("images/Background_Homepage.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:100%;	
+	display:block;
+}
+
+#check{
+	position: absolute;
+	width: 100%;
+	bottom:30%;
+	height:40%;
+	text-align: center;
+	font-size: 2vw;
+	color: #EBAA4E;
+}
+
+#zip{
+	background-color:#89C8D1;
+	border-width: 0 2px 2px 0;
+	border-radius:5px;
+	min-width: 100px;
+	width:28%;
+	height:15%;
+	min-height: 30px;
+	font-size: 90%;
+	text-align: center;
+	color:white;
+}
+
+button{
+	min-width: 50px;
+	width:11%;
+	height:15%;
+	min-height: 35px;
+	border-width: 0 2px 2px 0;
+	border-radius:5px;
+	background-color: #D5519A;
+	font-size: 90%;
+	color:white;
+}
+
+#main a{
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+
+*::-webkit-input-placeholder {
+    color: #B2E0E4;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #B2E0E4;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #B2E0E4;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #B2E0E4;
+}
+
+#main2{
+	width:100%;
+	height:100%;
+	display:none;
+
+}
+
+.top{
+	background-image: url('images/Forecast_Background.svg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:26%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	color:#EBAA4E;
+	font-size:4vmin;
+	font-family: Georgia,serif,Times;
+}
+
+#bar{
+	height:10%;
+	min-height: 20px;
+	width:15%;
+	min-width: 100px;
+	float:right;
+	background-color: #89C8D1;
+}
+
+#content{
+	position: relative;
+	height:74%;
+	min-height:425px;
+	background-color: #89C8D1;
+	font-family: sans-serif,serif,Times;
+}
+
+#zip2{
+	float: right;
+	margin: 0;
+	background-color: #89C8D1;
+	color:white;
+	border-bottom-left-radius: 2px;
+	border:none;
+	width: 90%;
+	height:100%;
+}
+
+#loc{
+	position: absolute;
+	clear:both;
+	margin:0;
+	bottom:20%;
+	width: 100%;
+}
+
+#search{
+	float:right;
+	background-color:  #89C8D1;
+	border:none;
+	height:110%;
+	width: 10%;
+
+}
+
+.top #orange{
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	width: 19%; 
+	height: 15%;
+	min-height:30px;
+	background-color: #EBAA4E;
+	color:white;
+	text-align: center;
+	font-size: 70%;
+	min-width:132px;
+}
+
+.today{
+	height:100%;
+	width:19%;
+	color:white;
+	text-align: center;
+	font-size:3vmin;
+	min-width:132px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.date{
+	padding-top:40px;
+	height:23%
+}
+
+.imge{
+	height:27%;
+	text-align:center;
+}
+
+.imge img{
+	width:70%;
+	top:30%;
+	height: 50%;
+}
+
+.temp{
+	height:50%;
+	padding-left:5%;
+}
+
+.temp_new{
+	height:30%;
+	padding-left:10%;
+	padding-right:10%;
+	font-size: 10vmin;
+}
+
+.temp_new img{
+	height: 60%;
+	width: 20%;
+}
+
+p{
+	margin:0;
+	height: 50%;
+}
+
+.left{
+	padding-left: 10%;
+	padding-top: 5%;
+	float:left;
+	width:30%;
+	min-width:60px;
+	height: 70%;
+}
+
+.right{
+	float: left;
+
+	font-size: 6vw;
+	width: 40%;
+}
+
+.bot{
+	height: 40%;
+	padding-left:10%;
+	padding-right:10%;
+	
+}
+
+.bot p{
+	width: 100%;
+	height: 100%;
+}
+
+.bot img{
+	width: 30%;
+	height: 30%;
+}
+
+.pre{
+	width: 40%;
+	height: 100%;
+	float:left;
+}
+
+.wind{
+	width: 55%;
+	float:right;
+	height: 100%;
+}
+
+.first{
+	height: 55%;
+}
+
+.first .date{
+	height: 41%;
+}
+
+.first .imge{
+	height: 40%;
+}
+
+.first .imge img{
+	height: 63%;
+} 
+
+.second{
+	height: 45%;
+}
+
+.left p{
+	height: 40%;
+}
+
+.left img{
+	width: 30%;
+	height: 60%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 680px) {
+	.top{
+		background-image: url('images/Forecast_Background.svg');
+		background-repeat: no-repeat;
+		background-size:cover;
+		height:20%;
+		width: 100%;
+		position: relative;
+		text-align: center;
+		color:#EBAA4E;
+		font-size:5vw;
+		font-family: Georgia,serif,Times;
+	}
+
+	#bar{
+		height:10%;
+		width:15%;
+		float:right;
+		background-color: #89C8D1;
+	}
+
+	.top #orange{
+		display: none;
+	}
+
+	#loc{
+		position: absolute;
+		clear:both;
+		margin:0;
+		width: 100%;
+		bottom:20%;
+	}
+
+	#content{
+		position: relative;
+		height:80%;
+		min-height:425px;
+		background-color: #89C8D1;
+		font-family: sans-serif,serif,Times;
+	}
+
+	.today{
+		height:16%;
+		width:100%;
+		color:white;
+		font-size:3vmin;
+	}
+
+	.date{
+		height:40%;
+		padding: 0;
+		padding-top: 2%;
+		width: 45%;
+		float: left;
+		font-size: 4.5vmin;
+	}
+
+	.imge{
+		height:100%;
+		float: left;
+		width:25%;
+	}
+
+	.imge img{
+		padding-top: 6%;
+		width:70%;
+		height: 70%;
+		
+	}
+
+
+	.temp_new{
+		padding: 0;
+		padding-top: 1%;
+		width:30%;
+		height:90%;
+		font-size: 5vmin;
+		float: left;
+	}
+
+	.temp_new img{
+		width:15%;
+		height:70%;
+	}
+
+	.temp_new p{
+		height:50%;
+	}
+
+	#one{
+		height:36%;
+		width:100%;
+		color:white;
+		font-size:3vmin;
+	}
+
+	.first{
+		float: left;
+		height: 100%;
+		width:45%;
+	}
+
+	.first .date{
+		width:100%;
+	}
+
+	.first .imge{
+		width: 100%;
+		height: 50%;
+	}
+
+	.first .imge img{
+		padding:0;
+		width:50%;
+	}
+
+	.first .date{
+		padding-top: 8%;
+	}
+
+	.second{
+		float: left;
+		height: 100%;
+		width:55%;
+	}
+
+	.temp{
+		height:50%;
+		width: 100%;
+		padding:0;
+		float: left;
+	}
+	.left{
+		height:70%;
+		padding-left: 10%;
+		padding-top: 8%;
+		float:left;
+		font-size:140%;
+		width:35%;
+		min-width:70px;
+	}
+
+	.left p{
+		height: 50%;
+	}
+
+	.left img{
+		height:60%;
+	}
+
+
+	.right{
+		padding-top:4%;
+		float:left;
+		font-size:14vmin;
+	}
+
+	.bot{
+		padding: 0;
+		clear:both;
+		height:50%;
+		width:100%;
+		font-size: 4vmin;	
+	}
+
+	.bot p{
+		height: 100%;
+	}
+
+	.pre img{
+		width:20%;
+		height:30%;
+	}
+
+	.pre{
+		padding-top: 3%;
+		padding-left: 10%;
+		width:35%;
+		height: 90%;
+		float:left;
+	}
+
+	.wind{
+		padding-top: 3%;
+		width:35%;
+		height: 90%;
+		float:left;
+	}
+
+	.wind img{
+		width:35%;
+		height: 30%;
+	}
+}

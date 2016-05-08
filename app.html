@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="app.css" />
+	<link rel="stylesheet" type="text/css" href="https://github.com/necolas/normalize.css/blob/master/normalize.css">
+	<script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+	<div id="main">
+		<div id="check">
+		<h1>What's the weather like?</h1>
+		<input type="text" id="zip" name="city" placeholder="ZIPCODE OR CITY">
+		<button onclick="lookupWoeid()">CHECK</button><br>
+ 	</div>
+	<a href="https://www.yahoo.com/?ilc=401" target="_blank"> <img src="https://poweredby.yahoo.com/purple.png" width="134" height="29"/> </a>
+	</div>
+
+	<div id="main2">
+		<div  class="top">
+			<div id="bar">
+			<input type="image" id="search" src="images/Forecast_Search.svg" onclick="lookupWoeid()" alt="submit">
+			<input type="text" id="zip2" name="city" placeholder="ZIPCODE OR CITY">
+			</div>
+			<h1 id="loc">Davis, CA</h1>
+			<div id="orange"><b>Today</b></div>
+		</div>
+
+		<div id="content">
+			<div class="today" id="one" style="background-color:#7ABFC4 ;">
+				<div class="first">
+					<div class="date">
+						<b>APRIL 19</b>
+						<p>MONDAY</p>
+					</div>
+
+					<div class="imge">
+						<img src="images/Forecast_Cloudy.svg" />
+					</div>
+				</div>
+
+				<div class="second">
+					<div class="temp">
+						<div class="left">
+							<p>
+								<img width="20%" src="images/Forecast_Highs.svg" />80
+							</p>
+							<p>
+								<img width="20%" src="images/Forecast_Lows.svg" />72
+							</p>
+						</div>
+						<div class="right">
+							75
+						</div>
+					</div>
+
+					<div class="bot">
+						<div class="pre">
+							<p><img width="70%" src="images/Forecast_Precipitation.svg" /><br/>5%</p>
+						</div>
+
+						<div class="wind">
+							<p><img width="70%" src="images/Forecast_Wind.svg" /><br/>2mph</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="today" id="two">
+				<div class="date">
+					<b>APRIL 19</b>
+					<p>MONDAY</p>
+				</div>
+
+				<div class="imge">
+					<img src="images/Forecast_Cloudy.svg" />
+				</div>
+			<div class="temp_new">			
+					<p><img width="25%" src="images/Forecast_Highs.svg" />80</p>
+					<p><img width="25%"  src="images/Forecast_Lows.svg" />72</p>
+				</div>
+
+			</div>
+
+			<div class="today" id="three">
+				<div class="date">
+					<b>APRIL 19</b>
+					<p>MONDAY</p>
+				</div>
+
+				<div class="imge">
+					<img src="images/Forecast_Cloudy.svg" />
+				</div>
+				<div class="temp_new">			
+					<p><img width="25%" src="images/Forecast_Highs.svg" />80</p>
+					<p><img width="25%"  src="images/Forecast_Lows.svg" />72</p>
+				</div>
+
+			</div>
+
+			<div class="today" id="four">
+				<div class="date">
+					<b>APRIL 19</b>
+					<p>MONDAY</p>
+				</div>
+
+				<div class="imge">
+					<img src="images/Forecast_Cloudy.svg" />
+				</div>
+			<div class="temp_new">			
+					<p><img width="25%" src="images/Forecast_Highs.svg" />80</p>
+					<p><img width="25%"  src="images/Forecast_Lows.svg" />72</p>
+				</div>
+
+			</div>
+
+			<div class="today" id="five">
+				<div class="date">
+					<b>APRIL 19</b>
+					<p>MONDAY</p>
+				</div>
+
+				<div class="imge">
+					<img src="images/Forecast_Cloudy.svg" />
+				</div>
+			<div class="temp_new">			
+					<p><img width="25%" src="images/Forecast_Highs.svg" />80</p>
+					<p><img width="25%"  src="images/Forecast_Lows.svg" />72</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
